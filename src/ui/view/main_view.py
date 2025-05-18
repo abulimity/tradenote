@@ -1,10 +1,8 @@
-from PyQt6.QtWidgets import QMainWindow
 from qfluentwidgets import FluentWindow, FluentIcon as FIF
-from .subinterface.welcome_interface import WelcomeInterface
-# from .home import HomeWidget
-# from .create_portfolio import CreatePortfolioWidget
+from src.ui.subinterface.welcome_interface import WelcomeInterface
 
-class Window(FluentWindow):
+
+class WelcomeView(FluentWindow):
     def __init__(self, parent=None):
         super().__init__()
         self.welcomeInterface = WelcomeInterface(self)
