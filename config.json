@@ -1,0 +1,13 @@
+{
+    "general": {
+        "window_width": 800,
+        "window_height": 600,
+        "language": "zh-CN",
+        "root_path": "",
+        "log_level": "INFO",
+        "log_file_path": "logs"
+    },
+    "database": {
+        "db_host": "data/tradenote.db"
+    }
+}

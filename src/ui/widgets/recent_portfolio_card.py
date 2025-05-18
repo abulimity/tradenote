@@ -2,9 +2,10 @@ from qfluentwidgets import CardWidget, SubtitleLabel, setFont,ListWidget, Fluent
 from PyQt6.QtWidgets import QHBoxLayout, QVBoxLayout
 
 
-class RecentPortfolioCard(CardWidget):
-    def __init__(self, parent=None):
+class AllPortfolioCard(CardWidget):
+    def __init__(self,controller, parent=None):
         super().__init__(parent)
+        self.controller = controller
         self.setObjectName('recentPortfolioCard')
         self.initUI()
 
@@ -12,12 +13,12 @@ class RecentPortfolioCard(CardWidget):
         # 创建主布局
         self.layout = QVBoxLayout(self)
 
-        self.portfolioListTitle = SubtitleLabel('近期使用投资组合：', self)
+        self.portfolioListTitle = SubtitleLabel('所有投资组合：', self)
         self.portfolioList = ListWidget(self)
 
-        self.portfolioList.addItem('投资组合1')
-        self.portfolioList.addItem('投资组合2')
-        self.portfolioList.addItem('投资组合3')
+        for item in self.controller.query_portfolio_list():
+            self.portfolioList.addItem(item['name'])
+
         # 将右侧标题添加到右侧布局
         self.layout.addStretch(1)
         self.layout.addWidget(self.portfolioListTitle)

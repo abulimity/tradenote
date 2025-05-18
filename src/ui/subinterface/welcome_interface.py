@@ -1,9 +1,9 @@
-from qfluentwidgets import CardWidget, ListWidget, SubtitleLabel, PushButton, Dialog
+from qfluentwidgets import CardWidget
 from PyQt6.QtWidgets import QHBoxLayout, QVBoxLayout
-from qfluentwidgets import FluentIcon as FIF
-from ..widgets.recent_portfolio_card import RecentPortfolioCard
-from ..widgets.welcome_card import WelcomeCard
-from ..widgets.create_portfolio_dialog import CreatePortfolioDialog
+from src.ui.widgets.recent_portfolio_card import AllPortfolioCard
+from src.ui.widgets.welcome_card import WelcomeCard
+from src.ui.widgets.create_portfolio_dialog import CreatePortfolioDialog
+from src.controller.welcome_contorller import WelcomeController
 
 class WelcomeInterface(CardWidget):
     def __init__(self, parent=None):
@@ -18,12 +18,12 @@ class WelcomeInterface(CardWidget):
         # 左侧欢迎卡片
         self.welcome_card = WelcomeCard()
         # 右侧卡片
-        self.recent_portfolio_card = RecentPortfolioCard()
+        self.all_portfolio_card = AllPortfolioCard(WelcomeController)
         
         # 创建右侧容器卡片
         self.rightCard = CardWidget(self)
         self.rightLayout = QVBoxLayout(self.rightCard)
-        self.rightLayout.addWidget(self.recent_portfolio_card)
+        self.rightLayout.addWidget(self.all_portfolio_card)
         
         self.mainLayout.addWidget(self.welcome_card)
         self.mainLayout.addWidget(self.rightCard)

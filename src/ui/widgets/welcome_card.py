@@ -1,7 +1,7 @@
 from qfluentwidgets import CardWidget, ListWidget, SubtitleLabel, PushButton
 from PyQt6.QtWidgets import QHBoxLayout, QVBoxLayout
 from qfluentwidgets import FluentIcon as FIF
-from ..widgets.recent_portfolio_card import RecentPortfolioCard
+from ..widgets.recent_portfolio_card import AllPortfolioCard
 
 class WelcomeCard(CardWidget):
     def __init__(self, parent=None):
