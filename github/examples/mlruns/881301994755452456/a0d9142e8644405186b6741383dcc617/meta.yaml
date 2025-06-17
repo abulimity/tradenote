@@ -1,0 +1,14 @@
+artifact_uri: file:D:\project\python\tradenote\github\examples\mlruns/881301994755452456/a0d9142e8644405186b6741383dcc617/artifacts
+end_time: 1750151673359
+entry_point_name: ''
+experiment_id: '881301994755452456'
+lifecycle_stage: active
+run_id: a0d9142e8644405186b6741383dcc617
+run_name: mlflow_recorder
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1750151418125
+status: 3
+tags: []
+user_id: abulimity
