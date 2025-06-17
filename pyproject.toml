@@ -1,0 +1,11 @@
+[project]
+name = "tradenote"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = "==3.12.11"
+dependencies = [
+    "jupyter>=1.1.1",
+    "notebook>=7.4.3",
+    "pyqlib>=0.9.6",
+]
