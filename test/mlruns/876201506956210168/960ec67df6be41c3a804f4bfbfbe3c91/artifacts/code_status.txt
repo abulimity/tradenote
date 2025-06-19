@@ -1,0 +1,261 @@
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	new file:   ../github/examples/mlruns/881301994755452456/157579a2201241aaafcff94e93d7da0e/artifacts/code_cached.txt
+	new file:   ../github/examples/mlruns/881301994755452456/157579a2201241aaafcff94e93d7da0e/artifacts/code_diff.txt
+	new file:   ../github/examples/mlruns/881301994755452456/157579a2201241aaafcff94e93d7da0e/artifacts/code_status.txt
+	new file:   ../github/examples/mlruns/881301994755452456/157579a2201241aaafcff94e93d7da0e/artifacts/config
+	new file:   ../github/examples/mlruns/881301994755452456/157579a2201241aaafcff94e93d7da0e/artifacts/dataset
+	new file:   ../github/examples/mlruns/881301994755452456/157579a2201241aaafcff94e93d7da0e/artifacts/label.pkl
+	new file:   ../github/examples/mlruns/881301994755452456/157579a2201241aaafcff94e93d7da0e/artifacts/params.pkl
+	new file:   ../github/examples/mlruns/881301994755452456/157579a2201241aaafcff94e93d7da0e/artifacts/portfolio_analysis/indicator_analysis_1day.pkl
+	new file:   ../github/examples/mlruns/881301994755452456/157579a2201241aaafcff94e93d7da0e/artifacts/portfolio_analysis/indicators_normal_1day.pkl
+	new file:   ../github/examples/mlruns/881301994755452456/157579a2201241aaafcff94e93d7da0e/artifacts/portfolio_analysis/indicators_normal_1day_obj.pkl
+	new file:   ../github/examples/mlruns/881301994755452456/157579a2201241aaafcff94e93d7da0e/artifacts/portfolio_analysis/port_analysis_1day.pkl
+	new file:   ../github/examples/mlruns/881301994755452456/157579a2201241aaafcff94e93d7da0e/artifacts/portfolio_analysis/positions_normal_1day.pkl
+	new file:   ../github/examples/mlruns/881301994755452456/157579a2201241aaafcff94e93d7da0e/artifacts/portfolio_analysis/report_normal_1day.pkl
+	new file:   ../github/examples/mlruns/881301994755452456/157579a2201241aaafcff94e93d7da0e/artifacts/pred.pkl
+	new file:   ../github/examples/mlruns/881301994755452456/157579a2201241aaafcff94e93d7da0e/artifacts/sig_analysis/ic.pkl
+	new file:   ../github/examples/mlruns/881301994755452456/157579a2201241aaafcff94e93d7da0e/artifacts/sig_analysis/ric.pkl
+	new file:   ../github/examples/mlruns/881301994755452456/157579a2201241aaafcff94e93d7da0e/artifacts/task
+	new file:   ../github/examples/mlruns/881301994755452456/157579a2201241aaafcff94e93d7da0e/meta.yaml
+	new file:   ../github/examples/mlruns/881301994755452456/157579a2201241aaafcff94e93d7da0e/metrics/1day.excess_return_with_cost.annualized_return
+	new file:   ../github/examples/mlruns/881301994755452456/157579a2201241aaafcff94e93d7da0e/metrics/1day.excess_return_with_cost.information_ratio
+	new file:   ../github/examples/mlruns/881301994755452456/157579a2201241aaafcff94e93d7da0e/metrics/1day.excess_return_with_cost.max_drawdown
+	new file:   ../github/examples/mlruns/881301994755452456/157579a2201241aaafcff94e93d7da0e/metrics/1day.excess_return_with_cost.mean
+	new file:   ../github/examples/mlruns/881301994755452456/157579a2201241aaafcff94e93d7da0e/metrics/1day.excess_return_with_cost.std
+	new file:   ../github/examples/mlruns/881301994755452456/157579a2201241aaafcff94e93d7da0e/metrics/1day.excess_return_without_cost.annualized_return
+	new file:   ../github/examples/mlruns/881301994755452456/157579a2201241aaafcff94e93d7da0e/metrics/1day.excess_return_without_cost.information_ratio
+	new file:   ../github/examples/mlruns/881301994755452456/157579a2201241aaafcff94e93d7da0e/metrics/1day.excess_return_without_cost.max_drawdown
+	new file:   ../github/examples/mlruns/881301994755452456/157579a2201241aaafcff94e93d7da0e/metrics/1day.excess_return_without_cost.mean
+	new file:   ../github/examples/mlruns/881301994755452456/157579a2201241aaafcff94e93d7da0e/metrics/1day.excess_return_without_cost.std
+	new file:   ../github/examples/mlruns/881301994755452456/157579a2201241aaafcff94e93d7da0e/metrics/1day.ffr
+	new file:   ../github/examples/mlruns/881301994755452456/157579a2201241aaafcff94e93d7da0e/metrics/1day.pa
+	new file:   ../github/examples/mlruns/881301994755452456/157579a2201241aaafcff94e93d7da0e/metrics/1day.pos
+	new file:   ../github/examples/mlruns/881301994755452456/157579a2201241aaafcff94e93d7da0e/metrics/IC
+	new file:   ../github/examples/mlruns/881301994755452456/157579a2201241aaafcff94e93d7da0e/metrics/ICIR
+	new file:   ../github/examples/mlruns/881301994755452456/157579a2201241aaafcff94e93d7da0e/metrics/Rank IC
+	new file:   ../github/examples/mlruns/881301994755452456/157579a2201241aaafcff94e93d7da0e/metrics/Rank ICIR
+	new file:   ../github/examples/mlruns/881301994755452456/157579a2201241aaafcff94e93d7da0e/metrics/l2.train
+	new file:   ../github/examples/mlruns/881301994755452456/157579a2201241aaafcff94e93d7da0e/metrics/l2.valid
+	new file:   ../github/examples/mlruns/881301994755452456/157579a2201241aaafcff94e93d7da0e/params/cmd-sys.argv
+	new file:   ../github/examples/mlruns/881301994755452456/157579a2201241aaafcff94e93d7da0e/params/dataset.class
+	new file:   ../github/examples/mlruns/881301994755452456/157579a2201241aaafcff94e93d7da0e/params/dataset.kwargs.handler.class
+	new file:   ../github/examples/mlruns/881301994755452456/157579a2201241aaafcff94e93d7da0e/params/dataset.kwargs.handler.kwargs.end_time
+	new file:   ../github/examples/mlruns/881301994755452456/157579a2201241aaafcff94e93d7da0e/params/dataset.kwargs.handler.kwargs.fit_end_time
+	new file:   ../github/examples/mlruns/881301994755452456/157579a2201241aaafcff94e93d7da0e/params/dataset.kwargs.handler.kwargs.fit_start_time
+	new file:   ../github/examples/mlruns/881301994755452456/157579a2201241aaafcff94e93d7da0e/params/dataset.kwargs.handler.kwargs.instruments
+	new file:   ../github/examples/mlruns/881301994755452456/157579a2201241aaafcff94e93d7da0e/params/dataset.kwargs.handler.kwargs.start_time
+	new file:   ../github/examples/mlruns/881301994755452456/157579a2201241aaafcff94e93d7da0e/params/dataset.kwargs.handler.module_path
+	new file:   ../github/examples/mlruns/881301994755452456/157579a2201241aaafcff94e93d7da0e/params/dataset.kwargs.segments.test
+	new file:   ../github/examples/mlruns/881301994755452456/157579a2201241aaafcff94e93d7da0e/params/dataset.kwargs.segments.train
+	new file:   ../github/examples/mlruns/881301994755452456/157579a2201241aaafcff94e93d7da0e/params/dataset.kwargs.segments.valid
+	new file:   ../github/examples/mlruns/881301994755452456/157579a2201241aaafcff94e93d7da0e/params/dataset.module_path
+	new file:   ../github/examples/mlruns/881301994755452456/157579a2201241aaafcff94e93d7da0e/params/model.class
+	new file:   ../github/examples/mlruns/881301994755452456/157579a2201241aaafcff94e93d7da0e/params/model.kwargs.colsample_bytree
+	new file:   ../github/examples/mlruns/881301994755452456/157579a2201241aaafcff94e93d7da0e/params/model.kwargs.lambda_l1
+	new file:   ../github/examples/mlruns/881301994755452456/157579a2201241aaafcff94e93d7da0e/params/model.kwargs.lambda_l2
+	new file:   ../github/examples/mlruns/881301994755452456/157579a2201241aaafcff94e93d7da0e/params/model.kwargs.learning_rate
+	new file:   ../github/examples/mlruns/881301994755452456/157579a2201241aaafcff94e93d7da0e/params/model.kwargs.loss
+	new file:   ../github/examples/mlruns/881301994755452456/157579a2201241aaafcff94e93d7da0e/params/model.kwargs.max_depth
+	new file:   ../github/examples/mlruns/881301994755452456/157579a2201241aaafcff94e93d7da0e/params/model.kwargs.num_leaves
+	new file:   ../github/examples/mlruns/881301994755452456/157579a2201241aaafcff94e93d7da0e/params/model.kwargs.num_threads
+	new file:   ../github/examples/mlruns/881301994755452456/157579a2201241aaafcff94e93d7da0e/params/model.kwargs.subsample
+	new file:   ../github/examples/mlruns/881301994755452456/157579a2201241aaafcff94e93d7da0e/params/model.module_path
+	new file:   ../github/examples/mlruns/881301994755452456/157579a2201241aaafcff94e93d7da0e/params/record
+	new file:   ../github/examples/mlruns/881301994755452456/157579a2201241aaafcff94e93d7da0e/tags/hostname
+	new file:   ../github/examples/mlruns/881301994755452456/157579a2201241aaafcff94e93d7da0e/tags/mlflow.runName
+	new file:   ../github/examples/mlruns/881301994755452456/157579a2201241aaafcff94e93d7da0e/tags/mlflow.source.name
+	new file:   ../github/examples/mlruns/881301994755452456/157579a2201241aaafcff94e93d7da0e/tags/mlflow.source.type
+	new file:   ../github/examples/mlruns/881301994755452456/157579a2201241aaafcff94e93d7da0e/tags/mlflow.user
+	new file:   ../mlruns/0/meta.yaml
+	new file:   ../mlruns/812028854715931404/0012f3eec07d4e4980b4ec205853584d/artifacts/code_cached.txt
+	new file:   ../mlruns/812028854715931404/0012f3eec07d4e4980b4ec205853584d/artifacts/code_diff.txt
+	new file:   ../mlruns/812028854715931404/0012f3eec07d4e4980b4ec205853584d/artifacts/code_status.txt
+	new file:   ../mlruns/812028854715931404/0012f3eec07d4e4980b4ec205853584d/meta.yaml
+	new file:   ../mlruns/812028854715931404/0012f3eec07d4e4980b4ec205853584d/params/cmd-sys.argv
+	new file:   ../mlruns/812028854715931404/0012f3eec07d4e4980b4ec205853584d/tags/mlflow.runName
+	new file:   ../mlruns/812028854715931404/0012f3eec07d4e4980b4ec205853584d/tags/mlflow.source.git.commit
+	new file:   ../mlruns/812028854715931404/0012f3eec07d4e4980b4ec205853584d/tags/mlflow.source.name
+	new file:   ../mlruns/812028854715931404/0012f3eec07d4e4980b4ec205853584d/tags/mlflow.source.type
+	new file:   ../mlruns/812028854715931404/0012f3eec07d4e4980b4ec205853584d/tags/mlflow.user
+	new file:   ../mlruns/812028854715931404/00589ed0f1f74dc3a1e2302f49a29e32/artifacts/code_cached.txt
+	new file:   ../mlruns/812028854715931404/00589ed0f1f74dc3a1e2302f49a29e32/artifacts/code_diff.txt
+	new file:   ../mlruns/812028854715931404/00589ed0f1f74dc3a1e2302f49a29e32/artifacts/code_status.txt
+	new file:   ../mlruns/812028854715931404/00589ed0f1f74dc3a1e2302f49a29e32/meta.yaml
+	new file:   ../mlruns/812028854715931404/00589ed0f1f74dc3a1e2302f49a29e32/params/cmd-sys.argv
+	new file:   ../mlruns/812028854715931404/00589ed0f1f74dc3a1e2302f49a29e32/tags/mlflow.runName
+	new file:   ../mlruns/812028854715931404/00589ed0f1f74dc3a1e2302f49a29e32/tags/mlflow.source.git.commit
+	new file:   ../mlruns/812028854715931404/00589ed0f1f74dc3a1e2302f49a29e32/tags/mlflow.source.name
+	new file:   ../mlruns/812028854715931404/00589ed0f1f74dc3a1e2302f49a29e32/tags/mlflow.source.type
+	new file:   ../mlruns/812028854715931404/00589ed0f1f74dc3a1e2302f49a29e32/tags/mlflow.user
+	new file:   ../mlruns/812028854715931404/1dca43fd8d16419688b3de890200d985/artifacts/code_cached.txt
+	new file:   ../mlruns/812028854715931404/1dca43fd8d16419688b3de890200d985/artifacts/code_diff.txt
+	new file:   ../mlruns/812028854715931404/1dca43fd8d16419688b3de890200d985/artifacts/code_status.txt
+	new file:   ../mlruns/812028854715931404/1dca43fd8d16419688b3de890200d985/meta.yaml
+	new file:   ../mlruns/812028854715931404/1dca43fd8d16419688b3de890200d985/params/cmd-sys.argv
+	new file:   ../mlruns/812028854715931404/1dca43fd8d16419688b3de890200d985/tags/mlflow.runName
+	new file:   ../mlruns/812028854715931404/1dca43fd8d16419688b3de890200d985/tags/mlflow.source.git.commit
+	new file:   ../mlruns/812028854715931404/1dca43fd8d16419688b3de890200d985/tags/mlflow.source.name
+	new file:   ../mlruns/812028854715931404/1dca43fd8d16419688b3de890200d985/tags/mlflow.source.type
+	new file:   ../mlruns/812028854715931404/1dca43fd8d16419688b3de890200d985/tags/mlflow.user
+	new file:   ../mlruns/812028854715931404/248ec674001f45e3b852fd116a695edb/artifacts/code_cached.txt
+	new file:   ../mlruns/812028854715931404/248ec674001f45e3b852fd116a695edb/artifacts/code_diff.txt
+	new file:   ../mlruns/812028854715931404/248ec674001f45e3b852fd116a695edb/artifacts/code_status.txt
+	new file:   ../mlruns/812028854715931404/248ec674001f45e3b852fd116a695edb/meta.yaml
+	new file:   ../mlruns/812028854715931404/248ec674001f45e3b852fd116a695edb/params/cmd-sys.argv
+	new file:   ../mlruns/812028854715931404/248ec674001f45e3b852fd116a695edb/tags/mlflow.runName
+	new file:   ../mlruns/812028854715931404/248ec674001f45e3b852fd116a695edb/tags/mlflow.source.git.commit
+	new file:   ../mlruns/812028854715931404/248ec674001f45e3b852fd116a695edb/tags/mlflow.source.name
+	new file:   ../mlruns/812028854715931404/248ec674001f45e3b852fd116a695edb/tags/mlflow.source.type
+	new file:   ../mlruns/812028854715931404/248ec674001f45e3b852fd116a695edb/tags/mlflow.user
+	new file:   ../mlruns/812028854715931404/6154317dbc1f4340860562a026af9481/artifacts/code_cached.txt
+	new file:   ../mlruns/812028854715931404/6154317dbc1f4340860562a026af9481/artifacts/code_diff.txt
+	new file:   ../mlruns/812028854715931404/6154317dbc1f4340860562a026af9481/artifacts/code_status.txt
+	new file:   ../mlruns/812028854715931404/6154317dbc1f4340860562a026af9481/meta.yaml
+	new file:   ../mlruns/812028854715931404/6154317dbc1f4340860562a026af9481/params/cmd-sys.argv
+	new file:   ../mlruns/812028854715931404/6154317dbc1f4340860562a026af9481/tags/mlflow.runName
+	new file:   ../mlruns/812028854715931404/6154317dbc1f4340860562a026af9481/tags/mlflow.source.git.commit
+	new file:   ../mlruns/812028854715931404/6154317dbc1f4340860562a026af9481/tags/mlflow.source.name
+	new file:   ../mlruns/812028854715931404/6154317dbc1f4340860562a026af9481/tags/mlflow.source.type
+	new file:   ../mlruns/812028854715931404/6154317dbc1f4340860562a026af9481/tags/mlflow.user
+	new file:   ../mlruns/812028854715931404/7d7942a2c1de450a97d231f84eb4a244/artifacts/code_cached.txt
+	new file:   ../mlruns/812028854715931404/7d7942a2c1de450a97d231f84eb4a244/artifacts/code_diff.txt
+	new file:   ../mlruns/812028854715931404/7d7942a2c1de450a97d231f84eb4a244/artifacts/code_status.txt
+	new file:   ../mlruns/812028854715931404/7d7942a2c1de450a97d231f84eb4a244/meta.yaml
+	new file:   ../mlruns/812028854715931404/7d7942a2c1de450a97d231f84eb4a244/params/cmd-sys.argv
+	new file:   ../mlruns/812028854715931404/7d7942a2c1de450a97d231f84eb4a244/tags/mlflow.runName
+	new file:   ../mlruns/812028854715931404/7d7942a2c1de450a97d231f84eb4a244/tags/mlflow.source.git.commit
+	new file:   ../mlruns/812028854715931404/7d7942a2c1de450a97d231f84eb4a244/tags/mlflow.source.name
+	new file:   ../mlruns/812028854715931404/7d7942a2c1de450a97d231f84eb4a244/tags/mlflow.source.type
+	new file:   ../mlruns/812028854715931404/7d7942a2c1de450a97d231f84eb4a244/tags/mlflow.user
+	new file:   ../mlruns/812028854715931404/85d03e113573486f916ffbc9daee41fe/artifacts/code_cached.txt
+	new file:   ../mlruns/812028854715931404/85d03e113573486f916ffbc9daee41fe/artifacts/code_diff.txt
+	new file:   ../mlruns/812028854715931404/85d03e113573486f916ffbc9daee41fe/artifacts/code_status.txt
+	new file:   ../mlruns/812028854715931404/85d03e113573486f916ffbc9daee41fe/meta.yaml
+	new file:   ../mlruns/812028854715931404/85d03e113573486f916ffbc9daee41fe/params/cmd-sys.argv
+	new file:   ../mlruns/812028854715931404/85d03e113573486f916ffbc9daee41fe/tags/mlflow.runName
+	new file:   ../mlruns/812028854715931404/85d03e113573486f916ffbc9daee41fe/tags/mlflow.source.git.commit
+	new file:   ../mlruns/812028854715931404/85d03e113573486f916ffbc9daee41fe/tags/mlflow.source.name
+	new file:   ../mlruns/812028854715931404/85d03e113573486f916ffbc9daee41fe/tags/mlflow.source.type
+	new file:   ../mlruns/812028854715931404/85d03e113573486f916ffbc9daee41fe/tags/mlflow.user
+	new file:   ../mlruns/812028854715931404/8921d110545647f39692283e29142411/artifacts/code_cached.txt
+	new file:   ../mlruns/812028854715931404/8921d110545647f39692283e29142411/artifacts/code_diff.txt
+	new file:   ../mlruns/812028854715931404/8921d110545647f39692283e29142411/artifacts/code_status.txt
+	new file:   ../mlruns/812028854715931404/8921d110545647f39692283e29142411/meta.yaml
+	new file:   ../mlruns/812028854715931404/8921d110545647f39692283e29142411/params/cmd-sys.argv
+	new file:   ../mlruns/812028854715931404/8921d110545647f39692283e29142411/tags/mlflow.runName
+	new file:   ../mlruns/812028854715931404/8921d110545647f39692283e29142411/tags/mlflow.source.git.commit
+	new file:   ../mlruns/812028854715931404/8921d110545647f39692283e29142411/tags/mlflow.source.name
+	new file:   ../mlruns/812028854715931404/8921d110545647f39692283e29142411/tags/mlflow.source.type
+	new file:   ../mlruns/812028854715931404/8921d110545647f39692283e29142411/tags/mlflow.user
+	new file:   ../mlruns/812028854715931404/a51ce1b415cd4346ade25311d72affed/artifacts/code_cached.txt
+	new file:   ../mlruns/812028854715931404/a51ce1b415cd4346ade25311d72affed/artifacts/code_diff.txt
+	new file:   ../mlruns/812028854715931404/a51ce1b415cd4346ade25311d72affed/artifacts/code_status.txt
+	new file:   ../mlruns/812028854715931404/a51ce1b415cd4346ade25311d72affed/meta.yaml
+	new file:   ../mlruns/812028854715931404/a51ce1b415cd4346ade25311d72affed/params/cmd-sys.argv
+	new file:   ../mlruns/812028854715931404/a51ce1b415cd4346ade25311d72affed/tags/mlflow.runName
+	new file:   ../mlruns/812028854715931404/a51ce1b415cd4346ade25311d72affed/tags/mlflow.source.git.commit
+	new file:   ../mlruns/812028854715931404/a51ce1b415cd4346ade25311d72affed/tags/mlflow.source.name
+	new file:   ../mlruns/812028854715931404/a51ce1b415cd4346ade25311d72affed/tags/mlflow.source.type
+	new file:   ../mlruns/812028854715931404/a51ce1b415cd4346ade25311d72affed/tags/mlflow.user
+	new file:   ../mlruns/812028854715931404/a784ffc1e7a244eeb797b751150b8fe2/artifacts/code_cached.txt
+	new file:   ../mlruns/812028854715931404/a784ffc1e7a244eeb797b751150b8fe2/artifacts/code_diff.txt
+	new file:   ../mlruns/812028854715931404/a784ffc1e7a244eeb797b751150b8fe2/artifacts/code_status.txt
+	new file:   ../mlruns/812028854715931404/a784ffc1e7a244eeb797b751150b8fe2/meta.yaml
+	new file:   ../mlruns/812028854715931404/a784ffc1e7a244eeb797b751150b8fe2/params/cmd-sys.argv
+	new file:   ../mlruns/812028854715931404/a784ffc1e7a244eeb797b751150b8fe2/tags/mlflow.runName
+	new file:   ../mlruns/812028854715931404/a784ffc1e7a244eeb797b751150b8fe2/tags/mlflow.source.git.commit
+	new file:   ../mlruns/812028854715931404/a784ffc1e7a244eeb797b751150b8fe2/tags/mlflow.source.name
+	new file:   ../mlruns/812028854715931404/a784ffc1e7a244eeb797b751150b8fe2/tags/mlflow.source.type
+	new file:   ../mlruns/812028854715931404/a784ffc1e7a244eeb797b751150b8fe2/tags/mlflow.user
+	new file:   ../mlruns/812028854715931404/ca4ee27d93794592827cc16b8355e682/artifacts/code_cached.txt
+	new file:   ../mlruns/812028854715931404/ca4ee27d93794592827cc16b8355e682/artifacts/code_diff.txt
+	new file:   ../mlruns/812028854715931404/ca4ee27d93794592827cc16b8355e682/artifacts/code_status.txt
+	new file:   ../mlruns/812028854715931404/ca4ee27d93794592827cc16b8355e682/meta.yaml
+	new file:   ../mlruns/812028854715931404/ca4ee27d93794592827cc16b8355e682/params/cmd-sys.argv
+	new file:   ../mlruns/812028854715931404/ca4ee27d93794592827cc16b8355e682/tags/mlflow.runName
+	new file:   ../mlruns/812028854715931404/ca4ee27d93794592827cc16b8355e682/tags/mlflow.source.git.commit
+	new file:   ../mlruns/812028854715931404/ca4ee27d93794592827cc16b8355e682/tags/mlflow.source.name
+	new file:   ../mlruns/812028854715931404/ca4ee27d93794592827cc16b8355e682/tags/mlflow.source.type
+	new file:   ../mlruns/812028854715931404/ca4ee27d93794592827cc16b8355e682/tags/mlflow.user
+	new file:   ../mlruns/812028854715931404/e8a9b9f4f26e4fddb95d91dbd3e60311/artifacts/code_cached.txt
+	new file:   ../mlruns/812028854715931404/e8a9b9f4f26e4fddb95d91dbd3e60311/artifacts/code_diff.txt
+	new file:   ../mlruns/812028854715931404/e8a9b9f4f26e4fddb95d91dbd3e60311/artifacts/code_status.txt
+	new file:   ../mlruns/812028854715931404/e8a9b9f4f26e4fddb95d91dbd3e60311/meta.yaml
+	new file:   ../mlruns/812028854715931404/e8a9b9f4f26e4fddb95d91dbd3e60311/params/cmd-sys.argv
+	new file:   ../mlruns/812028854715931404/e8a9b9f4f26e4fddb95d91dbd3e60311/tags/mlflow.runName
+	new file:   ../mlruns/812028854715931404/e8a9b9f4f26e4fddb95d91dbd3e60311/tags/mlflow.source.git.commit
+	new file:   ../mlruns/812028854715931404/e8a9b9f4f26e4fddb95d91dbd3e60311/tags/mlflow.source.name
+	new file:   ../mlruns/812028854715931404/e8a9b9f4f26e4fddb95d91dbd3e60311/tags/mlflow.source.type
+	new file:   ../mlruns/812028854715931404/e8a9b9f4f26e4fddb95d91dbd3e60311/tags/mlflow.user
+	new file:   ../mlruns/812028854715931404/e8bfc974f0864ad6bdaccc2b9156e975/artifacts/code_cached.txt
+	new file:   ../mlruns/812028854715931404/e8bfc974f0864ad6bdaccc2b9156e975/artifacts/code_diff.txt
+	new file:   ../mlruns/812028854715931404/e8bfc974f0864ad6bdaccc2b9156e975/artifacts/code_status.txt
+	new file:   ../mlruns/812028854715931404/e8bfc974f0864ad6bdaccc2b9156e975/meta.yaml
+	new file:   ../mlruns/812028854715931404/e8bfc974f0864ad6bdaccc2b9156e975/params/cmd-sys.argv
+	new file:   ../mlruns/812028854715931404/e8bfc974f0864ad6bdaccc2b9156e975/tags/mlflow.runName
+	new file:   ../mlruns/812028854715931404/e8bfc974f0864ad6bdaccc2b9156e975/tags/mlflow.source.git.commit
+	new file:   ../mlruns/812028854715931404/e8bfc974f0864ad6bdaccc2b9156e975/tags/mlflow.source.name
+	new file:   ../mlruns/812028854715931404/e8bfc974f0864ad6bdaccc2b9156e975/tags/mlflow.source.type
+	new file:   ../mlruns/812028854715931404/e8bfc974f0864ad6bdaccc2b9156e975/tags/mlflow.user
+	new file:   ../mlruns/812028854715931404/faa5dd7cffc34bd595929c35c7b80a62/artifacts/code_cached.txt
+	new file:   ../mlruns/812028854715931404/faa5dd7cffc34bd595929c35c7b80a62/artifacts/code_diff.txt
+	new file:   ../mlruns/812028854715931404/faa5dd7cffc34bd595929c35c7b80a62/artifacts/code_status.txt
+	new file:   ../mlruns/812028854715931404/faa5dd7cffc34bd595929c35c7b80a62/meta.yaml
+	new file:   ../mlruns/812028854715931404/faa5dd7cffc34bd595929c35c7b80a62/params/cmd-sys.argv
+	new file:   ../mlruns/812028854715931404/faa5dd7cffc34bd595929c35c7b80a62/tags/mlflow.runName
+	new file:   ../mlruns/812028854715931404/faa5dd7cffc34bd595929c35c7b80a62/tags/mlflow.source.git.commit
+	new file:   ../mlruns/812028854715931404/faa5dd7cffc34bd595929c35c7b80a62/tags/mlflow.source.name
+	new file:   ../mlruns/812028854715931404/faa5dd7cffc34bd595929c35c7b80a62/tags/mlflow.source.type
+	new file:   ../mlruns/812028854715931404/faa5dd7cffc34bd595929c35c7b80a62/tags/mlflow.user
+	new file:   ../mlruns/812028854715931404/meta.yaml
+	new file:   buy_and_hold.py
+	new file:   mlruns/0/meta.yaml
+	new file:   mlruns/876201506956210168/a2a0ff2666fa4667b26f20267d1d9762/artifacts/code_cached.txt
+	new file:   mlruns/876201506956210168/a2a0ff2666fa4667b26f20267d1d9762/artifacts/code_diff.txt
+	new file:   mlruns/876201506956210168/a2a0ff2666fa4667b26f20267d1d9762/artifacts/code_status.txt
+	new file:   mlruns/876201506956210168/a2a0ff2666fa4667b26f20267d1d9762/meta.yaml
+	new file:   mlruns/876201506956210168/a2a0ff2666fa4667b26f20267d1d9762/params/cmd-sys.argv
+	new file:   mlruns/876201506956210168/a2a0ff2666fa4667b26f20267d1d9762/tags/mlflow.runName
+	new file:   mlruns/876201506956210168/a2a0ff2666fa4667b26f20267d1d9762/tags/mlflow.source.git.commit
+	new file:   mlruns/876201506956210168/a2a0ff2666fa4667b26f20267d1d9762/tags/mlflow.source.name
+	new file:   mlruns/876201506956210168/a2a0ff2666fa4667b26f20267d1d9762/tags/mlflow.source.type
+	new file:   mlruns/876201506956210168/a2a0ff2666fa4667b26f20267d1d9762/tags/mlflow.user
+	new file:   mlruns/876201506956210168/aebc3d9e25264eaaa04d2cf6bbb5100f/artifacts/code_cached.txt
+	new file:   mlruns/876201506956210168/aebc3d9e25264eaaa04d2cf6bbb5100f/artifacts/code_diff.txt
+	new file:   mlruns/876201506956210168/aebc3d9e25264eaaa04d2cf6bbb5100f/artifacts/code_status.txt
+	new file:   mlruns/876201506956210168/aebc3d9e25264eaaa04d2cf6bbb5100f/meta.yaml
+	new file:   mlruns/876201506956210168/aebc3d9e25264eaaa04d2cf6bbb5100f/params/cmd-sys.argv
+	new file:   mlruns/876201506956210168/aebc3d9e25264eaaa04d2cf6bbb5100f/tags/mlflow.runName
+	new file:   mlruns/876201506956210168/aebc3d9e25264eaaa04d2cf6bbb5100f/tags/mlflow.source.git.commit
+	new file:   mlruns/876201506956210168/aebc3d9e25264eaaa04d2cf6bbb5100f/tags/mlflow.source.name
+	new file:   mlruns/876201506956210168/aebc3d9e25264eaaa04d2cf6bbb5100f/tags/mlflow.source.type
+	new file:   mlruns/876201506956210168/aebc3d9e25264eaaa04d2cf6bbb5100f/tags/mlflow.user
+	new file:   mlruns/876201506956210168/meta.yaml
+	new file:   workflow_by_code.py
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   ../github/examples/benchmarks/LightGBM/workflow_config_lightgbm_Alpha1582.yaml
+	deleted:    README_MA_Strategy.md
+	modified:   buy_and_hold.py
+	modified:   damo1.py
+	modified:   demo2.ipynb
+	deleted:    ma_cross_strategy.py
+	deleted:    ma_cross_strategy_improved.py
+	deleted:    ma_strategy_demo.py
+	modified:   mlruns/876201506956210168/aebc3d9e25264eaaa04d2cf6bbb5100f/meta.yaml
+	deleted:    simple_ma_strategy.py
+	modified:   two_ema_stragety.py
+	modified:   workflow_by_code.py
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	__pycache__/
+	mlruns/876201506956210168/63008449a6ca4f2b95d22e417a6bb7af/
+	mlruns/876201506956210168/960ec67df6be41c3a804f4bfbfbe3c91/
+

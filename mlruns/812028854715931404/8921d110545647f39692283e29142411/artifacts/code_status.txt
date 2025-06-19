@@ -1,0 +1,25 @@
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   github/examples/benchmarks/LightGBM/workflow_config_lightgbm_Alpha1582.yaml
+	deleted:    test/README_MA_Strategy.md
+	modified:   test/damo1.py
+	modified:   test/demo2.ipynb
+	deleted:    test/ma_cross_strategy.py
+	deleted:    test/ma_cross_strategy_improved.py
+	deleted:    test/ma_strategy_demo.py
+	deleted:    test/simple_ma_strategy.py
+	modified:   test/two_ema_stragety.py
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	github/examples/mlruns/881301994755452456/157579a2201241aaafcff94e93d7da0e/
+	mlruns/
+	test/__pycache__/
+	test/buy_and_hold.py
+	test/workflow_by_code.py
+
+no changes added to commit (use "git add" and/or "git commit -a")
