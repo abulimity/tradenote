@@ -1,10 +1,11 @@
-from qlib.contrib.strategy import TopkDropoutStrategy
-from qlib.contrib.evaluate import risk_analysis
+import pandas as pd
 from qlib.contrib.data.handler import Alpha158
+from qlib.utils.time import Freq
 from qlib.data import D
 from qlib.contrib.report import analysis_position
 from qlib.backtest import backtest, executor
 from qlib.strategy.base import BaseStrategy
+from qlib.backtest.decision import TradeDecisionWO,OrderHelper,OrderDir
 
 # Buy and Hold Strategy Implementation
 class BuyAndHoldStrategy(BaseStrategy):
@@ -23,25 +24,28 @@ class BuyAndHoldStrategy(BaseStrategy):
             # available_stocks = self.trade_exchange.list_instruments()
             # weights = {stock: 1.0 / len(available_stocks) for stock in available_stocks}
             self.has_bought = True
-            return {
-                "action": "buy",
-                "weights": {stock: 1.0},
-                "cash": cash
-            }
+            order = OrderHelper.create(
+                code=stock,
+                amount=cash,
+                direction=OrderDir.BUY
+            )
+            return TradeDecisionWO([order], self)
+
         else:
-            return {
-                "action": "hold"
-            }
+            return TradeDecisionWO([],self)
 
 if __name__ == "__main__":
     import qlib
     from qlib.config import REG_CN
 
     # 初始化qlib（请根据你的环境选择合适的provider_uri）
-    qlib.init(provider_uri=r"D:\project\python\tradenote\qlibz\qlib_data\cn_data", region=REG_CN)
+    qlib.init(provider_uri=r"D:\project\python\tradenote\qlib_data\cn_data", region=REG_CN)
+
+    start_date = "2017-01-01"
+    end_date = "2018-01-01"
 
     # 数据处理
-    handler = Alpha158(instruments="csi300", start_time="2017-01-01", end_time="2020-12-31")
+    handler = Alpha158(instruments="csi300", start_time=start_date, end_time=end_date)
 
     # 策略实例
     strategy = BuyAndHoldStrategy()
@@ -53,8 +57,8 @@ if __name__ == "__main__":
     }
 
     backtest_config = {
-        "start_time": "2018-01-01",
-        "end_time": "2020-12-31",
+        "start_time": start_date,
+        "end_time": end_date,
         "account": 100000000,
         "benchmark": "SH000300",
         "exchange_kwargs": {
@@ -71,13 +75,11 @@ if __name__ == "__main__":
     exec = executor.SimulatorExecutor(**EXECUTOR_CONFIG)
 
     # 回测
-    report_normal, positions = backtest(
+    portfolio_metric_dict, indicator_dict = backtest(
         strategy=strategy,
         executor=exec,
         **backtest_config
     )
-
-    print("回测结果：")
-    print(report_normal)
-    print("持仓分析：")
-    print(analysis_position.report_graph(positions))
+    analysis_freq = "{0}{1}".format(*Freq.parse("day"))
+    report_normal_df, positions_normal = portfolio_metric_dict.get(analysis_freq)
+    analysis_position.report_graph(report_normal_df)

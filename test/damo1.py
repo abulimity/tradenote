@@ -33,4 +33,4 @@ try:
     print(df_bench.head())
 except Exception as e:
     print(f"获取基准行情数据失败: {e}")
-# python scripts/get_data.py qlib_data --target_dir D:/project/python/tradenote/qlibz/qlib_data/cn_data --region cn
+# python github/scripts/get_data.py qlib_data --target_dir D:/project/python/tradenote/qlib_data/cn_data --region cn
